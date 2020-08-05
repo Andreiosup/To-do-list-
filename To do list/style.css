@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(120deg,rgb(255, 255, 99),rgb(255, 255, 0));
+    
+    background-size: 100%;
+    color: white;
+    font-family: Poppins,sans-serif;
+    
+}
+header{
+    font-size: 1.5rem;
+}
+header,form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input,form button{
+    padding:0.5rem;
+    font-size: 2rem;
+    border: none;
+    color: rgb(0, 255, 106);
+}
+form input{
+    color: #000;
+}
+form button{
+ cursor: pointer;
+ transition: all 0.2s ease;
+}
+form button:hover{
+  color: white;
+  background-color:rgb(0, 255, 106) ;
+}
+.todo-container{
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.todo{
+   min-width: 100vh;;
+    margin:0.5rem ;
+    background-color: rgb(255, 255, 255);
+   color: black;
+   font-size:1.5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.todo li{
+    flex:1;
+    justify-self: center;
+    
+}
+.check-button,.delete-button{
+    color:white;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding:5px;
+    margin: 3px;
+
+}
+.check-button{
+background-color: rgb(1, 214, 19);
+border-color:rgb(0, 110, 9) ;
+}
+.delete-button{
+background-color: rgb(185, 0, 0);
+border-color:rgb(87, 0, 0);
+}
+.check-button:hover{
+    background-color: rgb(67, 133, 0);
+}
+.delete-button:hover{
+    background-color: rgb(88, 0, 0);
+}
+.to-do-item{
+    padding: 12px;
+}
+
